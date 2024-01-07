@@ -11,9 +11,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    //"build:minimal": "turbo run @theme/minimal#build",
-    //"build:sleek": "turbo run @theme/sleek#build",
-    //"build:newspaper": "turbo run @theme/newspaper#build",
+    "build:minimal": "turbo run @theme/minimal#build",
+    "build:sleek": "turbo run @theme/sleek#build",
+    "build:newspaper": "turbo run @theme/newspaper#build",
     "build:bubblegum": "turbo run @theme/bubblegum#build",
     "manypkg:check": "manypkg check",
     "manypkg:fix": "manypkg fix",
